@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!--[if lt IE 7]>
+<html lang="es" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="es" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="es" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="es" class="no-js">
+<!--<![endif]-->
+<head>
+    <title>Huggies</title>
+    <meta charset="utf-8">
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="app" ng-controller="PageController">
+    <div class="page ubica_tienda">
+        <header>
+            <div class="container-fluid">
+                <div class="wrap_menu">
+                    <div class="social_nav"><a href="" class="icon fc"> <img src="images/fc.png" alt="Visita nuestro fan page"></a><a href="" class="icon tw"> <img src="images/tw.png" alt="Síguenos en twitter"></a><a href="" class="icon in"> <img src="images/in.png" alt="Visitanos en instragram"></a></div>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="container-fluid">
+                <div class="content ubica_tienda_content">
+                    <article>
+                        <div class="row">
+                            <div class="col-sm-12"><a href="/"><img src="images/envuelvelos_con_amor_con_huggies.png" alt="envuelvelos con amor con huggies" class="envuelvelos_con_amor_con_huggies"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <article>
+                                    <div class="bock_left"><img src="images/supermercados_title.png" alt="supermercados" class="img_title"><img src="images/bebe.png" alt="supermercados" class="bebe_img"></div>
+                                    <div class="ubica">
+                                        <p>Busca tu supermercado más cercano</p>
+                                        <div ng-controller="MapController" class="wrap_mapa">
+                                            <div class="mpa_content">
+                                                <form class="form-inline location_filter">
+                                                    <label>Buscar en: </label>
+                                                    <select class="form-control departamento">
+                                                        <option value="departamento">Departamento</option>
+                                                        <option value="lima">Lima</option>
+                                                        <option value="arequipa">Arequipa</option>
+                                                        <option value="cusco">Cusco</option>
+                                                        <option value="ica">Ica</option>
+                                                        <option value="juliaca">Juliaca</option>
+                                                        <option value="tacna">Tacna</option>
+                                                        <option value="trujillo">Trujillo</option>
+                                                        <option value="chiclayo">Chiclayo</option>
+                                                        <option value="piura">Piura</option>
+                                                        <option value="chimbote">Chimbote</option>
+                                                        <option value="cajamarca">Cajamarca</option>
+                                                        <option value="huancayo">Huancayo</option>
+                                                        <option value="huanuco">Huanuco</option>
+                                                        <option value="iquitos">Iquitos</option>
+                                                        <option value="tarapoto">Tarapoto</option>
+                                                        <option value="selva-central">Selva Central</option>
+                                                    </select>
+                                                    <select disabled="disabled" class="form-control distrito">
+                                                        <option value="distrito">Distrito</option>
+                                                        <option value="san-miguel">San Miguel</option>
+                                                        <option value="chorrillos">Chorrillos</option>
+                                                        <option value="san-juan-de-miraflores">San Juan de Miraflores</option>
+                                                        <option value="callao">Callao</option>
+                                                    </select>
+                                                </form>
+                                                <div class="locations_result clear_block">
+                                                    <div class="map_canvas_wrapper">
+                                                        <div id="map-canvas" class="map_canvas">the map</div>
+                                                    </div>
+                                                    <div class="wrap_direction_list">
+                                                        <div class="direction_list">
+                                                            <ul>
+                                                                <li>>  Av. La Marina Super mercado METRO.</li>
+                                                                <li>>  Av. La Marina Super mercado METRO.</li>
+                                                                <li>>  Av. La Marina Super mercado METRO.</li>
+                                                                <li>>  Av. La Marina Super mercado METRO.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-sm-12 wrap_lugares_de_canje"><a href="ubica_mercados.cshtml" class="slink">Ir a Mercados</a><a href="" class="slink">Términos y Condiciones de la promoción</a></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-->
+    <footer>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"><img src="images/mm.png" alt="" class="mm"></div>
+                    <div class="col-sm-8">
+                        <div class="social">Redes sociales</div>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor invidunt ut
+                            labore et dolore magna aliquyam erat, sed
+                            diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/TweenMax.min.js"></script>
+    <script src="js/vendor/ScrollToPlugin.min.js"></script>
+    <script src="js/vendor/angular.js"></script>
+    <script src="js/ng/app.js"></script>
+    <script src="js/ng/page-controller.js"></script>
+    <script src="js/ng/map-controller.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4BrTGZ1r9PjXw4FEt-w0wB_OUgmUivdI"></script>
+</body>
+</html>

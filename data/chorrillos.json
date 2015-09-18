@@ -1,0 +1,30 @@
+{
+	"Metro Chorrillos":{
+		"distric":"Chorrillos",
+		"name":"Metro Chorrillos",
+		"addres":"Prol. Republica De Panama S/N (T) Metro Chorrillos (H01)",
+		"schudele":"11:00 am a 3:00 pm /5:00 pm a 9:00 pm",
+		"days":"Martes a Domingo",
+		"latitude":-12.167428,
+		"longitude":-77.012662
+	},
+
+	"Metro Chorrillos2":{
+		"distric":"Chorrillos",
+		"name":"Metro Chorrillos2",
+		"addres":"Prol. Republica De Panama S/N (T) Metro Chorrillos (H01)",
+		"schudele":"11:00 am a 3:00 pm /5:00 pm a 9:00 pm",
+		"days":"Martes a Domingo",
+		"latitude":-12.183112,
+		"longitude":-77.000377
+	},
+	"Metro Chorrillo3":{
+		"distric":"Chorrillos",
+		"name":"Metro Chorrillos3",
+		"addres":"Prol. Republica De Panama S/N (T) Metro Chorrillos (H01)",
+		"schudele":"11:00 am a 3:00 pm /5:00 pm a 9:00 pm",
+		"days":"Martes a Domingo",
+		"latitude":-11.991495,
+		"longitude":-77.015265
+	}
+}

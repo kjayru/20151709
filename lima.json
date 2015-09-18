@@ -1,0 +1,22 @@
+{
+	"San Juan de Lurigancho":
+	{
+		"title":"Metro San Juan de Lurigancho",
+		// "distric":"San Juan de Lurigancho",
+		"addres":"Proceres De La Independencia 101 (T) Metro San Juan De Lurigancho (H06)",
+		"schudele":"11:00 am a 3:00 pm /5:00 pm a 9:00 pm",
+		"days":"Martes a Domingo",
+		"longitude":-12.004291,
+		"latitude":-77.003700
+	},
+	"Chorrillos":
+	{
+		"title":"Metro Chorrillos",
+		// "distric":"Chorrillos",
+		"addres":"Prol. Republica De Panama S/N (T) Metro Chorrillos (H01)",
+		"schudele":"11:00 am a 3:00 pm /5:00 pm a 9:00 pm",
+		"days":"Martes a Domingo",
+		"longitude":-12.167428,
+		"latitude":-77.012662
+	}
+}
